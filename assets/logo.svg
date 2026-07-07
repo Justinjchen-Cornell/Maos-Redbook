@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#CC0000"/>
-      <stop offset="100%" style="stop-color:#8B0000"/>
+      <stop offset="0%" stop-color="#CC0000"/>
+      <stop offset="100%" stop-color="#8B0000"/>
     </linearGradient>
   </defs>
   <rect width="600" height="200" rx="12" fill="url(#bg)"/>
   <rect x="4" y="4" width="592" height="192" rx="10" fill="none" stroke="#FFD700" stroke-width="2"/>
   <text x="300" y="72" text-anchor="middle" font-family="Georgia,serif" font-size="52" font-weight="bold" fill="#FFD700">Mao's Redbook</text>
-  <text x="300" y="110" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#FFD700" opacity="0.9">毛选 · 1925-1957</text>
-  <text x="300" y="155" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#FFD700" opacity="0.6">Strategic Frameworks for Thinking & Action</text>
-  <line x1="80" y1="130" x2="520" y2="130" stroke="#FFD700" stroke-width="0.5" opacity="0.3"/>
+  <text x="300" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#FFD700" fill-opacity="0.9">毛选 · 1925-1957</text>
+  <text x="300" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#FFD700" fill-opacity="0.6">Strategic Frameworks for Thinking and Action</text>
+  <line x1="80" y1="130" x2="520" y2="130" stroke="#FFD700" stroke-width="0.5" stroke-opacity="0.3"/>
 </svg>

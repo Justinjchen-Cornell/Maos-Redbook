@@ -1,7 +1,7 @@
 # 📕 Mao's Redbook
 
 <p align="center">
-  <img src="assets/logo.svg" alt="Mao's Redbook" width="500">
+  <img src="https://raw.githubusercontent.com/Justinjchen-Cornell/Maos-Redbook/master/assets/logo.svg" alt="Mao's Redbook" width="500">
 </p>
 
 <p align="center">

@@ -23,6 +23,24 @@ This is **not** a book summary. It is a **thinking toolkit** — a structured ex
 
 ---
 
+## 🌍 Why This Matters for Western Thinkers
+
+Mao Zedong is one of history's most consequential strategic thinkers — yet in the West, his work is almost never studied as a **thinking methodology**. This is a mistake.
+
+Five reasons to take this seriously:
+
+| Reason | Why It Matters |
+|--------|---------------|
+| **1. Contradiction Analysis is a Superpower** | The West defaults to either/or thinking. Mao's dialectical method — find the principal contradiction, identify which side dominates, create conditions for transformation — is a more powerful tool for complex, multi-factor problems than any SWOT or 2x2 matrix. |
+| **2. Asymmetric Strategy is Universally Applicable** | Mao won against superior forces for 22 years. His principles of concentration, protracted engagement, and turning weakness into strength apply directly to startups vs. incumbents, challenger brands, and underdog competition. |
+| **3. The Mass Line is Lean Methodology, 70 Years Early** | "From the masses, to the masses" — investigate, concentrate, implement, verify — is the same iterative loop that modern product development calls "build-measure-learn." Just applied to revolution instead of software. |
+| **4. These Ideas Shaped Modern China** | Understanding how China's leaders think requires understanding the intellectual toolkit they were trained on. The frameworks in this repo are not historical artifacts — they are live operating system for the world's second-largest economy. |
+| **5. The Frameworks Are Methodologically Neutral** | You don't have to agree with Mao's politics or historical conclusions. The analytical method — investigate reality, identify contradictions, resolve the principal one — stands on its own as a thinking toolset, just as Sun Tzu's *Art of War* is studied by people who will never command an army. |
+
+**Bottom line:** This isn't about ideology. It's about expanding your strategic repertoire with frameworks that have been battle-tested across one of history's most turbulent periods.
+
+---
+
 ## 🧰 What's Inside
 
 | File | Content |
@@ -102,17 +120,23 @@ Apply the dialectical method and strategic principles — not the historical con
 ```
 mao-zedong-selected-works/
 ├── README.md              ← You are here
-├── SKILL.md               ← Agent skill definition
+├── SKILL.md               ← Agent skill (maos-redbook)
 ├── CHEATSHEET.md          ← Bilingual quick reference
 ├── glossary.md            ← Key terms explained
 ├── ARTICLE_INDEX.md       ← Complete article listing
+├── assets/logo.svg        ← Project logo
 ├── frameworks/
 │   ├── contradiction-analysis.md
 │   ├── practice-theory.md
 │   ├── military-strategy.md
 │   ├── mass-line.md
 │   └── united-front.md
-├── chapters/              ← Individual article summaries
+├── chapters/
+│   ├── vol1/              ← 17 articles (1925–1937)
+│   ├── vol2/              ← 38 articles (1937–1941)
+│   ├── vol3/              ← 30 articles (1941–1945)
+│   ├── vol4/              ← 58 articles (1945–1949)
+│   └── vol5/              ← 71 articles (1949–1957)
 └── _raw/                  ← Source extraction data
 ```
 

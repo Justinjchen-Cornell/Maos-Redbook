@@ -1,11 +1,16 @@
-# 📕 毛泽东选集 · Mao Zedong Selected Works
+# 📕 Mao's Redbook · 毛选
 
-> *A structured knowledge base for strategic thinking, extracted from 1,258 pages across 5 volumes (1925–1957).*
-> *从《毛泽东选集》1–5 卷中提取的战略思维知识库，覆盖 1258 页、横跨 1925–1957 年。*
+<p align="center">
+  <img src="assets/logo.svg" alt="Mao's Redbook" width="500">
+</p>
+
+> *A strategic thinking toolkit extracted from 1,258 pages across 5 volumes (1925–1957). Frameworks for dialectical analysis, competitive strategy, and organizational leadership.*
+> *从《毛泽东选集》1–5 卷中提取的战略思维工具箱。用于辩证分析、竞争策略和组织领导。**
 
 [![Volumes](https://img.shields.io/badge/Volumes-5-red)]()
-[![Articles](https://img.shields.io/badge/Articles-~120-blue)]()
-[![Frameworks](https://img.shields.io/badge/Frameworks-5-green)]()
+[![Articles](https://img.shields.io/badge/Articles-214-blue)]()
+[![Frameworks](https://img.shields.io/badge/Frameworks-5-gold)]()
+[![Bilingual](https://img.shields.io/badge/Language-中英双语-brightgreen)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
 ---

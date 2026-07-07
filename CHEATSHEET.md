@@ -1,4 +1,4 @@
-# 毛选 CheatSheet · Mao Selected Works Quick Reference
+# Mao's Redbook · CheatSheet · 速查卡
 
 > Bilingual · Information-Dense · One-Page Philosophy-to-Action Map
 

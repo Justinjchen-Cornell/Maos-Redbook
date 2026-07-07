@@ -1,6 +1,6 @@
 ---
-name: mao-zedong-selected-works
-description: "Mao Zedong's Selected Works (毛泽东选集 1-5) — frameworks, strategy and dialectical thinking. Covers contradiction analysis, practice theory, military strategy, mass line, united front. Use when analyzing competitive dynamics, strategic dilemmas, organizational leadership, or seeking dialectical problem-solving approaches."
+name: maos-redbook
+description: "Mao's Redbook (毛泽东选集 1-5) — strategic frameworks for thinking and action. Covers contradiction analysis, practice theory, military strategy, mass line, united front. Use when analyzing competitive dynamics, strategic dilemmas, organizational leadership, or seeking dialectical problem-solving approaches."
 ---
 
 # 毛泽东选集 · Mao Zedong Selected Works

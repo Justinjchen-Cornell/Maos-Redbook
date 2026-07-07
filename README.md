@@ -78,7 +78,7 @@ Apply Mao's contradiction analysis to my situation:
 ## 📦 Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/maos-redbook.git
+git clone https://github.com/Justinjchen-Cornell/maos-redbook.git
 mkdir -p ~/.claude/skills/maos-redbook
 cp maos-redbook/SKILL.md ~/.claude/skills/maos-redbook/
 cp -r maos-redbook/frameworks ~/.claude/skills/maos-redbook/

@@ -132,7 +132,7 @@ footer a{color:var(--gold)}
 <div class="card" style="border-left-color:var(--gold);">
 <h3>Install for Claude Code / Copilot / Amp</h3>
 <div class="prompt-box" onclick="copyPrompt(this)"># Clone and install as a skill
-git clone https://github.com/YOUR_USERNAME/maos-redbook.git
+git clone https://github.com/Justinjchen-Cornell/maos-redbook.git
 mkdir -p ~/.claude/skills/maos-redbook
 cp maos-redbook/SKILL.md ~/.claude/skills/maos-redbook/
 cp -r maos-redbook/frameworks ~/.claude/skills/maos-redbook/
@@ -142,7 +142,7 @@ cp maos-redbook/glossary.md ~/.claude/skills/maos-redbook/
 <p style="margin-top:12px"><span class="badge badge-gold">Claude Code</span> <span class="badge badge-red">Copilot</span> <span class="badge badge-gold">Amp</span></p></div></div>
 
 </div>
-<footer><p>Mao's Redbook · Strategic Frameworks 1925-1957</p><p><a href="https://github.com/YOUR_USERNAME/maos-redbook">GitHub</a> · MIT License</p></footer>
+<footer><p>Mao's Redbook · Strategic Frameworks 1925-1957</p><p><a href="https://github.com/Justinjchen-Cornell/maos-redbook">GitHub</a> · MIT License</p></footer>
 <script>
 function filter(){const q=document.getElementById('search').value.toLowerCase();document.querySelectorAll('.item').forEach(e=>e.classList.toggle('hidden',q&&!e.textContent.toLowerCase().includes(q)))}
 function filterBy(tag){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));event.target.classList.add('active');document.querySelectorAll('.item').forEach(e=>e.classList.toggle('hidden',tag!=='all'&&!e.dataset.tags.includes(tag)))}

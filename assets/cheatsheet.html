@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mao's Redbook  CheatSheet</title>
+<style>
+:root { --red: #CC0000; --dark: #1a1a1a; --gold: #DAA520; --bg: #0d0d0d; --card: #1a1a1a; --text: #ddd; --muted: #999; }
+*{margin:0;padding:0;box-sizing:border-box} body{background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:20px}
+header{background:linear-gradient(135deg,var(--red),#8B0000);padding:30px 20px;text-align:center;border-radius:0 0 16px 16px;margin-bottom:30px}
+header h1{color:var(--gold);font-family:Georgia,serif;font-size:2.2em}
+header p{color:rgba(255,215,0,0.8);font-size:1.1em}
+.search-bar{position:sticky;top:10px;z-index:100;margin-bottom:20px}
+.search-bar input{width:100%;padding:14px 20px;border-radius:12px;border:2px solid #333;background:var(--card);color:var(--text);font-size:1em;outline:none}
+.search-bar input:focus{border-color:var(--gold)}
+.tabs{display:flex;gap:6px;margin-bottom:20px;flex-wrap:wrap}
+.tab{padding:8px 18px;border-radius:20px;border:1px solid #333;background:transparent;color:var(--text);cursor:pointer;font-size:.9em}
+.tab:hover,.tab.active{background:var(--red);border-color:var(--red);color:#fff}
+.card{background:var(--card);border-radius:12px;padding:20px;margin-bottom:16px;border-left:4px solid var(--red)}
+.card h3{color:var(--gold);font-size:1.15em;margin-bottom:8px}
+.card .meta{color:var(--muted);font-size:.85em;margin-bottom:10px}
+.card p{margin-bottom:10px}
+.prompt-box{background:#111;border:1px solid #333;border-radius:8px;padding:12px;font-family:monospace;font-size:.9em;overflow-x:auto;white-space:pre-wrap;cursor:pointer;position:relative}
+.prompt-box::after{content:'Click to copy';position:absolute;top:8px;right:12px;color:var(--muted);font-size:.75em}
+.copied::after{content:'Copied!';color:#4CAF50}
+.collapsible{background:var(--card);border-radius:12px;padding:20px;margin-bottom:16px;border:1px solid #333;cursor:pointer}
+.collapsible h3{display:flex;justify-content:space-between;align-items:center}
+.collapsible h3::after{content:'+';font-size:1.4em;color:var(--gold)}
+.collapsible.open h3::after{content:'-'}
+.collapse-content{display:none;margin-top:15px;padding-top:15px;border-top:1px solid #333}
+.collapsible.open .collapse-content{display:block}
+.badges{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+.badge{display:inline-block;padding:4px 12px;border-radius:12px;font-size:.8em;font-weight:600}
+.badge-red{background:var(--red);color:#fff}
+.badge-gold{background:var(--gold);color:var(--dark)}
+.quote{font-style:italic;border-left:3px solid var(--gold);padding:10px 16px;margin:8px 0;color:#ccc;cursor:pointer}
+.quote:hover{background:#222}
+table{width:100%;border-collapse:collapse;font-size:.9em}
+th{text-align:left;padding:8px;color:var(--gold);border-bottom:1px solid #333}
+td{padding:8px;border-bottom:1px solid #222}
+footer{text-align:center;padding:40px 20px;color:var(--muted);font-size:.85em}
+footer a{color:var(--gold)}
+.hidden{display:none}
+@media(max-width:600px){header h1{font-size:1.5em}.container{padding:10px}}
+</style>
+</head>
+<body>
+<header><h1>Mao's Redbook  CheatSheet</h1><p>Strategic Frameworks  Quick Reference  Copy-Paste Ready</p></header>
+<div class="container">
+<div class="search-bar"><input type="text" id="search" placeholder="Search frameworks, quotes, situations... (e.g., competition, 矛盾, underdog)" oninput="filter()"></div>
+<div class="tabs">
+<button class="tab active" onclick="filterBy('all')">All</button>
+<button class="tab" onclick="filterBy('framework')">Frameworks</button>
+<button class="tab" onclick="filterBy('quote')">Quotes</button>
+<button class="tab" onclick="filterBy('prompt')">Copy-Paste Prompts</button>
+<button class="tab" onclick="filterBy('military')">Military Strategy</button>
+</div>
+<div class="item" data-tags="framework">
+<div class="card"><h3>Navigation Grid: Which Framework When?</h3>
+<table><tr><th>Situation</th><th>Framework</th><th>Key Move</th></tr>
+<tr><td>Complex multi-factor problem</td><td>Contradiction Analysis</td><td>Find principal contradiction</td></tr>
+<tr><td>Theory-reality gap</td><td>Practice Theory</td><td>Investigate -> Act -> Verify</td></tr>
+<tr><td>Outnumbered competition</td><td>Military Strategy</td><td>Concentrate 10:1 locally</td></tr>
+<tr><td>Stakeholder alignment</td><td>United Front</td><td>Win the middle forces</td></tr>
+<tr><td>Team disconnect from users</td><td>Mass Line</td><td>From masses, to masses</td></tr>
+<tr><td>Rigid/dogmatic thinking</td><td>Oppose Book Worship</td><td>No investigation, no say</td></tr></table></div></div>
+
+<div class="item" data-tags="framework military">
+<div class="card"><h3>Military Strategy Quick Reference</h3>
+<table><tr><th>Principle</th><th>Command</th></tr>
+<tr><td>Concentrate forces</td><td>10:1 local superiority</td></tr>
+<tr><td>Active defense</td><td>Defend to prepare, attack to win</td></tr>
+<tr><td>16-Character Formula</td><td>Enemy advances, retreat; halts, harass; tires, attack; retreats, pursue</td></tr>
+<tr><td>3 Stages of Protracted War</td><td>Defense -> Stalemate -> Counter-offensive</td></tr>
+<tr><td>Initiative</td><td>Force enemy to react to you</td></tr>
+</table></div></div>
+
+<div class="item" data-tags="framework">
+<div class="card"><h3>Dialectical Method</h3>
+<p style="font-family:monospace;font-size:1.1em;padding:10px">OBSERVE -> ANALYZE -> PRIORITIZE -> RESOLVE -> VERIFY -> LOOP</p>
+<p>1. List all contradictions<br>2. Which is principal?<br>3. Which aspect dominates?<br>4. What conditions would flip it?<br>5. What specific method of resolution?</p></div></div>
+
+<div class="item" data-tags="quote">
+<div class="card"><h3>Top 10 Quotes (Click to Copy)</h3>
+<div class="quote" onclick="copyText(this)">No investigation, no right to speak. (没有调查就没有发言权)</div>
+<div class="quote" onclick="copyText(this)">Seek truth from facts. (实事求是)</div>
+<div class="quote" onclick="copyText(this)">A single spark can start a prairie fire. (星星之火，可以燎原)</div>
+<div class="quote" onclick="copyText(this)">All reactionaries are paper tigers. (一切反动派都是纸老虎)</div>
+<div class="quote" onclick="copyText(this)">Better to cut off one finger than injure ten. (伤其十指不如断其一指)</div>
+<div class="quote" onclick="copyText(this)">From the masses, to the masses. (从群众中来，到群众中去)</div>
+<div class="quote" onclick="copyText(this)">Strategically despise, tactically respect. (战略上藐视，战术上重视)</div>
+<div class="quote" onclick="copyText(this)">Practice is the sole criterion of truth. (实践是检验真理的唯一标准)</div>
+<div class="quote" onclick="copyText(this)">The law of unity of opposites is the fundamental law of the universe. (对立统一规律是宇宙的根本规律)</div>
+<div class="quote" onclick="copyText(this)">Enemy advances, we retreat; enemy halts, we harass; enemy tires, we attack; enemy retreats, we pursue. (敌进我退，敌驻我扰，敌疲我打，敌退我追)</div>
+</div></div>
+<div class="item" data-tags="prompt">
+<div class="collapsible" onclick="this.classList.toggle('open')">
+<h3>Prompt 1: Competitive Strategy Analysis</h3>
+<div class="collapse-content"><div class="prompt-box" onclick="copyPrompt(this)">I'm a startup competing against a well-funded incumbent (or describe your situation). Use Mao's military strategy framework:
+1. Map the balance of forces
+2. Where can I achieve 10:1 local superiority?
+3. What's my protracted war strategy: defense -> stalemate -> counter-offensive?
+4. How do I force the incumbent to react to me instead of vice versa?</div></div></div>
+
+<div class="collapsible" onclick="this.classList.toggle('open')">
+<h3>Prompt 2: Complex Problem Analysis (Contradiction Method)</h3>
+<div class="collapse-content"><div class="prompt-box" onclick="copyPrompt(this)">Apply Mao's contradiction analysis to this situation: [Describe your problem here]
+1. List all contradictions present
+2. Identify the principal contradiction
+3. Which aspect currently dominates?
+4. What conditions would flip it?
+5. What specific method of resolution does this specific contradiction require?</div></div></div>
+
+<div class="collapsible" onclick="this.classList.toggle('open')">
+<h3>Prompt 3: Coalition Building (United Front)</h3>
+<div class="collapse-content"><div class="prompt-box" onclick="copyPrompt(this)">I need to build a coalition for [project/initiative]. Use Mao's united front framework:
+1. Map all stakeholders: core allies, middle forces, temporary allies, hard opposition
+2. How do I win over the middle forces (the swing vote)?
+3. What are my red lines where I maintain independence?
+4. How do I isolate rather than confront the hardest opposition?</div></div></div>
+
+<div class="collapsible" onclick="this.classList.toggle('open')">
+<h3>Prompt 4: Leadership Decision (Mass Line + Practice)</h3>
+<div class="collapse-content"><div class="prompt-box" onclick="copyPrompt(this)">I'm facing a difficult team decision. Apply Mao's mass line + practice theory:
+1. How do I investigate the real situation (not my assumptions)?
+2. From the scattered feedback, what's the pattern?
+3. What's the concrete action plan?
+4. How do I verify the results and iterate?</div></div></div></div>
+
+<div class="item" data-tags="framework">
+<div class="card" style="border-left-color:var(--gold);">
+<h3>Install for Claude Code / Copilot / Amp</h3>
+<div class="prompt-box" onclick="copyPrompt(this)"># Clone and install as a skill
+git clone https://github.com/YOUR_USERNAME/maos-redbook.git
+mkdir -p ~/.claude/skills/maos-redbook
+cp maos-redbook/SKILL.md ~/.claude/skills/maos-redbook/
+cp -r maos-redbook/frameworks ~/.claude/skills/maos-redbook/
+cp maos-redbook/CHEATSHEET.md ~/.claude/skills/maos-redbook/
+cp maos-redbook/glossary.md ~/.claude/skills/maos-redbook/
+# Then ask Claude: "Analyze my competitive situation using Mao's contradiction analysis"</div>
+<p style="margin-top:12px"><span class="badge badge-gold">Claude Code</span> <span class="badge badge-red">Copilot</span> <span class="badge badge-gold">Amp</span></p></div></div>
+
+</div>
+<footer><p>Mao's Redbook · Strategic Frameworks 1925-1957</p><p><a href="https://github.com/YOUR_USERNAME/maos-redbook">GitHub</a> · MIT License</p></footer>
+<script>
+function filter(){const q=document.getElementById('search').value.toLowerCase();document.querySelectorAll('.item').forEach(e=>e.classList.toggle('hidden',q&&!e.textContent.toLowerCase().includes(q)))}
+function filterBy(tag){document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));event.target.classList.add('active');document.querySelectorAll('.item').forEach(e=>e.classList.toggle('hidden',tag!=='all'&&!e.dataset.tags.includes(tag)))}
+function copyPrompt(e){const t=e.textContent.trim();navigator.clipboard.writeText(t).then(()=>{e.classList.add('copied');setTimeout(()=>e.classList.remove('copied'),1500)})}
+function copyText(e){navigator.clipboard.writeText(e.textContent.trim()).then(()=>{const o=e.style.background;e.style.background='#2a2a2a';setTimeout(()=>e.style.background=o,500)})}
+</script>
+</body></html>

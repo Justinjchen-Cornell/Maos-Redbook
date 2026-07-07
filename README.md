@@ -1,25 +1,90 @@
-# 📕 Mao's Redbook · 毛选
+# 📕 Mao's Redbook
 
 <p align="center">
   <img src="assets/logo.svg" alt="Mao's Redbook" width="500">
 </p>
 
-> *A strategic thinking toolkit extracted from 1,258 pages across 5 volumes (1925–1957). Frameworks for dialectical analysis, competitive strategy, and organizational leadership.*
-> *从《毛泽东选集》1–5 卷中提取的战略思维工具箱。用于辩证分析、竞争策略和组织领导。**
+<p align="center">
+  <b>The operating manual for asymmetric competition.</b><br>
+  5 frameworks to think, decide, and compete like the underdog who won.
+</p>
 
-[![Volumes](https://img.shields.io/badge/Volumes-5-red)]()
-[![Articles](https://img.shields.io/badge/Articles-214-blue)]()
-[![Frameworks](https://img.shields.io/badge/Frameworks-5-gold)]()
-[![Bilingual](https://img.shields.io/badge/Language-中英双语-brightgreen)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+<p align="center">
+  <a href="#try-it-now"><img src="https://img.shields.io/badge/Try_in_30_seconds-↓-red?style=for-the-badge"></a>
+  <a href="assets/cheatsheet.html"><img src="https://img.shields.io/badge/Interactive_CheatSheet-Open-gold?style=for-the-badge"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Volumes-5-red">
+  <img src="https://img.shields.io/badge/Chapters-214-blue">
+  <img src="https://img.shields.io/badge/Frameworks-5-gold">
+  <img src="https://img.shields.io/badge/License-MIT-yellow">
+</p>
 
 ---
 
-## 🎯 What Is This?
+## TL;DR
 
-This is **not** a book summary. It is a **thinking toolkit** — a structured extraction of frameworks, principles, and strategic methods from Mao Zedong's collected works, designed for use by AI agents (Claude Code, Copilot, Amp) and human thinkers alike.
+**Not a history book. Not a political statement. A thinking toolkit.**
 
-这不是书摘。这是一个**思维工具箱**——从毛泽东著作中提取的框架、原则和战略方法的结构化知识库，供 AI 代理和人类思考者使用。
+| Framework | Solve This Problem |
+|-----------|-------------------|
+| **Contradiction Analysis** | Find the one tension driving everything, then resolve it |
+| **Practice Theory** | Stop theorizing — investigate, act, verify, repeat |
+| **Military Strategy** | You don't need more resources. Concentrate what you have |
+| **Mass Line** | Your users know more than you do. Go ask them |
+| **United Front** | Win the middle, isolate the extremes, keep independence |
+
+---
+
+## 🚀 Try It Now (30 Seconds)
+
+Copy → paste into Claude, ChatGPT, or any AI:
+
+```
+Apply Mao's contradiction analysis to my situation:
+1. List all contradictions I'm facing
+2. Which is the principal contradiction?
+3. Which aspect dominates? What would flip it?
+4. What specific method matches this specific contradiction?
+```
+
+→ Or open the **[Interactive CheatSheet](assets/cheatsheet.html)** for one-click prompt templates.
+
+---
+
+## 📖 Real Examples
+
+### 1. Startup vs. Incumbent (Military Strategy)
+
+> *"We're a 10-person startup against a company with 100x our budget."*
+
+**Don't fight everywhere.** Pick ONE feature they neglect. Make it 10x better. That's your beachhead (集中优势兵力 — concentrate superior forces). Stage 1: survive with that feature. Stage 2: expand to adjacent features while they're slow to react. Stage 3: challenge their core. Force them to react to your shipping rhythm. *"Better to cut off one finger than injure ten."*
+
+### 2. Product Nobody Uses (Practice + Mass Line)
+
+> *"We built what we thought users wanted. Nobody's using it."*
+
+**Your conference-room assumptions are worthless.** Go to 20 users. Watch them work — don't demo. What do they *actually* do? Find the pattern behind the scattered feedback. Ship the simplest thing addressing the real need. Measure. Iterate. This loop is infinite. *"If you want to know the taste of a pear, you must eat it yourself."*
+
+### 3. Team at War (Contradiction Analysis)
+
+> *"Engineering and Sales are at each other's throats."*
+
+**This is non-antagonistic** — both want the company to succeed. The principal contradiction is short-term revenue vs. long-term quality. Don't force one side to submit (that's dictatorship). Use unity-criticism-unity: each team articulates the other's position first, then together find the synthesis — a roadmap with revenue features AND 30% technical foundation. *"Different contradictions require different methods of resolution."*
+
+---
+
+## 📦 Install
+
+```bash
+git clone https://github.com/YOUR_USERNAME/maos-redbook.git
+mkdir -p ~/.claude/skills/maos-redbook
+cp maos-redbook/SKILL.md ~/.claude/skills/maos-redbook/
+cp -r maos-redbook/frameworks ~/.claude/skills/maos-redbook/
+cp maos-redbook/CHEATSHEET.md ~/.claude/skills/maos-redbook/
+cp maos-redbook/glossary.md ~/.claude/skills/maos-redbook/
+```
 
 ---
 

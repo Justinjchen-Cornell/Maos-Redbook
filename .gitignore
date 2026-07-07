@@ -13,3 +13,4 @@ _gen_*.py
 # OS files
 .DS_Store
 Thumbs.db
+_rewrite_readme.py

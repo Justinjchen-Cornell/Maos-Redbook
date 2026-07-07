@@ -1,0 +1,15 @@
+# Raw extraction data (large files)
+_raw/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build scripts
+_build.py
+_parse.py
+_gen_*.py
+
+# OS files
+.DS_Store
+Thumbs.db
